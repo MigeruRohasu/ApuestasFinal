@@ -1,0 +1,166 @@
+.letrero1 {
+  color: rgb(8, 22, 0);
+  margin-bottom: 30px;
+  text-align: center;
+  
+}
+.cuadrotitulo{
+  background-image: linear-gradient(#d8fd5f, #54c02f);
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom:1cm;
+  
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.cuadro_detalles{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.Cuadrologin {
+  max-width: 400px;
+  margin: 0 auto;
+  background-image: linear-gradient(#f486f6, #caff84);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.CuadroBilletera {
+  max-width: 800px;
+  max-height: 800px;
+  margin: 0 auto;
+  background-image: linear-gradient(#b8f686, #89ff62);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.cuadro_de_historial{
+  max-width: 300px;
+  margin-top: 2cm;
+  padding-left: 2cm;
+}
+.CuadroContenido {
+  max-width: 900px;
+  max-height: 800px;
+  margin: 0 auto;
+  background-image: linear-gradient(#b8f686, #89ff62);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.labelLogin {
+  display: block;
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: oblique bold 100% cursive;
+}
+.titulo {
+  display: block;
+  border-top: 80px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: oblique bold 120% cursive;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.h1_de_eleccion{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+select{
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.Apu {
+  width: 10em;
+  height: 11em;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.historial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.historial_detalles{
+  background-color: orange;
+  border: 1px solid black;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.blue-box {
+  background-color: #94d8ff; /* azul celeste */
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+  margin: 8px;
+  width: 500px;
+}
+
+.arrow {
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid #94d8ff; /* coincide con el color de fondo del div */
+  position: absolute;
+  right: -20px;
+  top: 20px;
+  
+}
+
+.imagenmercadopago{
+  background-image: url(../static/img//dinero1.jpg);
+  width: 90cm;
+  height: 20cm;
+  background-size: 100%;
+}

@@ -1,0 +1,43 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../static/styleGeneral.css" type="text/css">
+<link rel="stylesheet" href="../static/stylePaginaPartidos.css" type="text/css">
+<link rel="stylesheet" href="../static/styleNav.css">
+
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <div class="contenedor">
+    <a  href="{% url 'home' %}"class="active" > </a>
+  </div>
+  <a class="BotonPrincipal" href="{% url 'crear_cuenta' %}">
+    <h1>Apuestas</h1>
+  </a>
+  <a class="BotonPrincipal" href="{% url 'login' %}">
+    <h1>Login</h1>  
+  </a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+<script src="../static/javaS.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+

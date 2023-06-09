@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="../static/styleGeneral.css">
+    <link rel="stylesheet" href="../static/styleNav.css">
+
+  </head>
+  <body>
+    <div class="topnav" id="myTopnav">
+      <div class="contenedor">
+        <a  href="{% url 'home' %}"class="active" > </a>
+      </div>
+      <a class="BotonPrincipal" href="">
+        <h1>Apuestas</h1>
+      </a>
+  
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <div >
+      <h1 class ="letrero1">Ingresa a tu cuenta</h1>
+      <form class="Cuadrologin" id="formulariologin"> 
+        <label class="labelLogin" for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <label class="labelLogin" for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <div class="botones">
+          <button type="botonlogin">Login</button>
+          <button id="crear-btn" >Crear cuenta</button>
+          <button  id="back-btn" >Back</button>     
+        </div>
+      </form>
+    </div>
+    
+    <script src="../static/javaS.js" class="Apu"></script>
+  </body>
+</html>

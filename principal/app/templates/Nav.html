@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="../static/styleLogin.css">
+    <link rel="stylesheet" href="../static/styleNav.css">
+
+  </head>
+  <body>
+    <div class="topnav" id="myTopnav">
+      <div class="contenedor">
+        <a  href="{% url 'home' %}"class="active" > </a>
+      </div>
+      <a class="BotonPrincipal" href="{% url 'apuestas' %}">
+        <h1>Apuestas</h1>
+      </a>
+      <a class="BotonPrincipal" href="{% url 'login' %}">
+        <h1>Login</h1>  
+      </a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>    
+    <script src="../static/javaS.js" class="Apu"></script>
+  </body>
+</html>
